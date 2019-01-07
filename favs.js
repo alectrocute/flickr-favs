@@ -11,6 +11,7 @@ const destination = "/home/photos";
 
 function getFlickrFavorites(pageNum) {
     var flickr = new Flickr(apiKey);
+    pageNum = pageNum - 1;
     // get public list of favorites
     flickr
         .favorites
