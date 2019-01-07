@@ -8,3 +8,5 @@
  Then, to download a specific page, do:
  
 `node favs.js 1`
+
+You must do only a page at a time.
